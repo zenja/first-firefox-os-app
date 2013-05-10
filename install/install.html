@@ -14,7 +14,7 @@
       function install(ev) {
         ev.preventDefault();
         // define the manifest URL
-        var manifest_url = "http://wangxing.me/lab/firefoxos/soudouban/package.zip";
+        var manifest_url = "http://wangxing.me/lab/firefoxos/soudouban/package.manifest";
         // install the app
         var myapp = navigator.mozApps.installPackage(manifest_url);
         myapp.onsuccess = function(data) {
