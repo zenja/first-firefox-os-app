@@ -1,0 +1,13 @@
+{
+    "name": "SouDouban",
+    "description": "Let's search douban.com!",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/img/icon.png"
+    },
+    "developer": {
+        "name": "zenja",
+        "url": "http://zenja.org"
+    },
+    "default_locale": "en"
+}

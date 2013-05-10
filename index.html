@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sou Douban!</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"></head>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div id="search_div">
+      <form id="search_form" action="http://m.bing.com/search" method="POST" target="frame">
+        <input type="hidden" id="search_value" name="q"/>
+        <input type="text" id="search_text" />
+        <input type="submit" id="search_button" value="Sou!">
+      </form>
+    </div>
+    <iframe frameborder="0" name="frame">
+    </iframe>
+  </body>
+</html>
